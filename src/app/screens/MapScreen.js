@@ -6,7 +6,7 @@ import {decode as atob} from 'base-64';
 
 const csv = require('csvtojson');
 //(36.334400, -94.125763) 34.9697,-92.3731
-export default class Map extends React.Component {
+export default class MapScreen extends React.Component {
   constructor(props) {
     super(props);
     this.state = {coordinates: []};
@@ -77,6 +77,7 @@ export default class Map extends React.Component {
                   }\nRecovered: ${coord.recovered}`,
                 )
               }
+              image={require('../assets/images/marker.png')}
             />
           );
         })}
