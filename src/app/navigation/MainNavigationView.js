@@ -38,8 +38,10 @@ const bottomTabNavigator = createBottomTabNavigator(
       },
     }),
     tabBarOptions: {
+      style: {backgroundColor: '#424242'},
       activeTintColor: 'green',
-      inactiveTintColor: 'gray',
+      inactiveTintColor: 'black',
+      keyboardHidesTabBar: true,
     },
   },
 );
