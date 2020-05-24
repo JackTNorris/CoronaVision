@@ -15,3 +15,5 @@
  <li>React-Native</li>
  <li>John Hopkins Coronavirus Data</li>
 </ul>
+
+<h4>Note: The getVirusStats() function needs to be improved due to the nature of how I scraped the john hopkins coronavirus dataL</h4>
